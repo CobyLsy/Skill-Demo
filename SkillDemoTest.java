@@ -8,7 +8,7 @@ public class SkillDemoTest {
     public void Division(){
         Boolean thrown = false;
         try {
-            SkillDemo.divide(2,1);
+            SkillDemo.divide(2,0);
         }
         catch (ArithmeticException e){
             thrown = true;
